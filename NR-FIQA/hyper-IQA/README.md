@@ -1,3 +1,5 @@
+- https://github.com/JaiyoungJoo/portfolio/blob/main/NR-FIQA/hyper-IQA/HyperIQA_Joo.pdf
+
 # HyperIQA Implementation
 - 논문 저자들이 `demo.py`를 만들어 놓음.
 - 실행할 경우 demo image의 predict score를 output함.

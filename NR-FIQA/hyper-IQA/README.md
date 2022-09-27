@@ -10,7 +10,32 @@
 - im_path = f'./data/{filename}' 에 이미지 폴더 경로를 넣음.
 - dataframe 이름 확인 후 셀 실행 시 dataframe에 결과가 삽입.
 
+# Dataset
+### KonIq-10k
+- http://database.mmsp-kn.de/koniq-10k-database.html
 
+여기 이미지 넣기
+- 총 10,073장의 이미지
+- 512x384 px
+- 우리가 자주 보는 사진 이미지와 유사
+
+# Result
+- 원본 이미지 489장을 test data로 Image_predic_score를 추출
+- 얼굴을 자른 이미지 489장을 test data로 Face_predic_score를 추출
+
+여기 표 이미지
+- 원본 이미지 MOS_zscore와 원본 이미지 predict_score 비교
+  - predict_score가 MOS_zscore에 비해 조금 낮지만 큰 차이는 없다
+
+여기 그래프
+
+- 원본 이미지 MOS_zscore와 얼굴 자른 이미지 face_predict_score 비교
+  - face_predict_score가 대부분 20 ~ 40점 사이 값을 갖는다.
+  - MOS_zscore가 높을 수록 차이가 심해진다.
+
+- PLCC, SRCC, MSE 비교 
+
+비교 이미지
 
 # HyperIQA
 

@@ -23,21 +23,26 @@
 # Result
 - 원본 이미지 489장을 test data로 Image_predic_score를 추출
 - 얼굴을 자른 이미지 489장을 test data로 Face_predic_score를 추출
+
 ![Hyper_result](https://user-images.githubusercontent.com/103994779/192446910-c73a92b0-4892-4fee-8a65-90ab2a8f1b9d.png)
 
 ***
 - 원본 이미지 MOS_zscore와 원본 이미지 predict_score 비교
   - predict_score가 MOS_zscore에 비해 조금 낮지만 큰 차이는 없다
 
-여기 그래프
+![Hyper_predict_score](https://user-images.githubusercontent.com/103994779/192447397-2f58f208-ad94-4c5e-84ce-90e286f532c4.png)
+
 ***
 - 원본 이미지 MOS_zscore와 얼굴 자른 이미지 face_predict_score 비교
   - face_predict_score가 대부분 20 ~ 40점 사이 값을 갖는다.
   - MOS_zscore가 높을 수록 차이가 심해진다.
 
-- PLCC, SRCC, MSE 비교 
+![Hyper_face_predict_score](https://user-images.githubusercontent.com/103994779/192447492-3377d806-ec34-4535-806d-dbe6475a44dd.png)
 
-비교 이미지
+***
+- PLCC, SRCC, MSE 비교 
+- 
+![Untitled](https://user-images.githubusercontent.com/103994779/192447558-7adc265e-14b8-427c-b0e2-1affebae4fbe.png)
 
 # HyperIQA
 

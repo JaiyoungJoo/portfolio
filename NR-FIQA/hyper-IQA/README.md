@@ -23,8 +23,7 @@
 # Result
 - 원본 이미지 489장을 test data로 Image_predic_score를 추출
 - 얼굴을 자른 이미지 489장을 test data로 Face_predic_score를 추출
-
-여기 표 이미지
+![Hyper_result](https://user-images.githubusercontent.com/103994779/192446910-c73a92b0-4892-4fee-8a65-90ab2a8f1b9d.png)
 - 원본 이미지 MOS_zscore와 원본 이미지 predict_score 비교
   - predict_score가 MOS_zscore에 비해 조금 낮지만 큰 차이는 없다
 

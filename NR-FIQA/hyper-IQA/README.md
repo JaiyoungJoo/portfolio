@@ -2,7 +2,7 @@
 - 논문 저자들이 demo.py를 만들어 놓음.
 - 실행할 경우 demo image의 predict score를 output함.
 - 이번 프로젝트에서 사용하기 위해 demo.ipynb 생성
-- koniq_pretrained.pkl 파일 필요
+- koniq_pretrained.pkl 파일 필요([Google drive](https://drive.google.com/file/d/1OOUmnbvpGea0LIGpIWEbOyxfWx6UCiiE/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1yY3O8DbfTTtUwXn14Mtr8Q) (password: 1ty8))
 - pretrained 폴더 생성 후 koniq_pretrained.pkl 파일을 넣음.
 - 1번 셀 실행 후 2번 셀에서 torch.load 경로 확인 후 실행
 - filenames에 predict 하고자하는 이미지 폴더 경로를 넣음.
@@ -14,7 +14,8 @@
 ### KonIq-10k
 - http://database.mmsp-kn.de/koniq-10k-database.html
 
-여기 이미지 넣기
+![koniqsample](https://user-images.githubusercontent.com/103994779/192446632-a500cfb9-c7dd-48bf-9d26-23388ef56d36.png)
+
 - 총 10,073장의 이미지
 - 512x384 px
 - 우리가 자주 보는 사진 이미지와 유사

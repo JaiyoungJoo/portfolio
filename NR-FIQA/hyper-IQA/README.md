@@ -1,4 +1,5 @@
 - https://github.com/JaiyoungJoo/portfolio/blob/main/NR-FIQA/hyper-IQA/HyperIQA_Joo.pdf
+- https://github.com/JaiyoungJoo/portfolio/blob/main/NR-FIQA/hyper-IQA/HyperIQA_implementation_Joo.pdf
 
 # HyperIQA Implementation
 - 논문 저자들이 `demo.py`를 만들어 놓음.

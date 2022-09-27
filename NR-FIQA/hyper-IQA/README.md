@@ -1,24 +1,16 @@
-# HyperIQA Implementation 방법
+# HyperIQA Implementation
+- 논문 저자들이 demo.py를 만들어 놓음.
+- 실행할 경우 demo image의 predict score를 output함.
+- 이번 프로젝트에서 사용하기 위해 demo.ipynb 생성
+- koniq_pretrained.pkl 파일 필요
+- pretrained 폴더 생성 후 koniq_pretrained.pkl 파일을 넣음.
+- 1번 셀 실행 후 2번 셀에서 torch.load 경로 확인 후 실행
+- filenames에 predict 하고자하는 이미지 폴더 경로를 넣음.
+- 결과를 저장하기 위한 dataframe을 생성
+- im_path = f'./data/{filename}' 에 이미지 폴더 경로를 넣음.
+- dataframe 이름 확인 후 셀 실행 시 dataframe에 결과가 삽입.
 
-논문 저자들은 demo.py를 실행하면 된다고 하지만, 이 파일은 이미지 하나만 예측함.
 
-demo.ipynb를 새로 만들어서 폴더에 있는 모든 이미지를 예측하도록 바꿈.
-
-1번 2번 셀은 그냥 실행하면 되고,
-
-3번 셀에 이미지가 있는 폴더 경로를 넣어야 함.
-
-4번 셀에서 리스트에 이미지 파일명 확인하고,
-
-5번 셀에 결과를 저장하기 위한 dataframe을 만든다.
-
-6번 셀이 모델을 실행하는 셀임.
-
-im_path = f'./data/{filename}' 이 부분에서 ./data/ 이 부분을 위에서 정한 폴더 경로를 넣어야 함.
-
-7번 셀에 결과가 dataframe에 들어가서 나오게 됨.
-
-***
 
 # HyperIQA
 

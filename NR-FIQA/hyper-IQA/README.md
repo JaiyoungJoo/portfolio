@@ -1,14 +1,14 @@
 # HyperIQA Implementation
-- 논문 저자들이 demo.py를 만들어 놓음.
+- 논문 저자들이 `demo.py`를 만들어 놓음.
 - 실행할 경우 demo image의 predict score를 output함.
-- 이번 프로젝트에서 사용하기 위해 demo.ipynb 생성
+- 이번 프로젝트에서 사용하기 위해 `demo.ipynb` 생성
 - koniq_pretrained.pkl 파일 필요([Google drive](https://drive.google.com/file/d/1OOUmnbvpGea0LIGpIWEbOyxfWx6UCiiE/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1yY3O8DbfTTtUwXn14Mtr8Q) (password: 1ty8))
-- pretrained 폴더 생성 후 koniq_pretrained.pkl 파일을 넣음.
-- 1번 셀 실행 후 2번 셀에서 torch.load 경로 확인 후 실행
+- pretrained 폴더 생성 후 `koniq_pretrained.pkl` 파일을 넣음.
+- 1번 셀 실행 후 2번 셀에서 `torch.load` 경로 확인 후 실행
 - filenames에 predict 하고자하는 이미지 폴더 경로를 넣음.
-- 결과를 저장하기 위한 dataframe을 생성
-- im_path = f'./data/{filename}' 에 이미지 폴더 경로를 넣음.
-- dataframe 이름 확인 후 셀 실행 시 dataframe에 결과가 삽입.
+- 결과를 저장하기 위한 `dataframe`을 생성
+- `im_path = f'./data/{filename}'` 에 이미지 폴더 경로를 넣음.
+- `dataframe` 이름 확인 후 셀 실행 시 `dataframe`에 결과가 삽입.
 
 # Dataset
 ### KonIq-10k

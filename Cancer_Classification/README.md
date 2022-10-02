@@ -2,7 +2,7 @@
 
 https://joosblog.tistory.com/15?category=1037091
 - .py 파일을 쓰는 법에 대해 배우기 전이라 주피터노트북으로 작성.
-- pdf 파일 보기 https://github.com/JaiyoungJoo/portfolio/files/9651659/Cancerclassification_JOO.pdf
+- pdf 파일 다운로드 https://github.com/JaiyoungJoo/portfolio/files/9651659/Cancerclassification_JOO.pdf
 ***
 # 1. Overview
 - 갑상선 초음파 사진을 이용하여 딥러닝 모델을 학습 시킨 후 종양(tumor)이 양성(benign)인지, 악성(malignant)인지 구분해 본다.

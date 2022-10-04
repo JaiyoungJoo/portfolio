@@ -27,4 +27,22 @@
 
 ## 5. 결론
 
+---
+# No-Reference Image Qaulity Assessment(NR-IQA) model을 활용한 Face  Image Assessment(FIQA) model 만들기
+
+### Abstract
+
+## 1. Introduction
+기존의 NR-IQA는 이미지 전체의 품질을 판단하기 때문에 사람의 얼굴만의 품질을 판단하기에는 적합하지 않다. 또한, 기존의 FIQA는 대부분 Full Refence 기반으로 만들어지기 때문에 Refence가 없는 경우 model을 train하는 것이 불가능하다. 따라서 이번 프로젝트에서는 NR-IQA를 이용하여 NR-FIQA model을 만들어 보고자 한다.
+사용한 모델은 NR-IQA model 2가지(MANIQA, MUSIQ), FIQA model 2가지(SDD-FIQA, MagFace)이며 사용한 dataset은 KonIQ-10k, Tid2013, 한국인 안면 데이터(ai hub), FFHQ이다. 먼저 NR-IQA와 FIQA model의 code를 분석하여 각 model의 적용 원리를 이해하고 NR-IQA model 중 하나, FIQA model 중 하나를 선택하여 두 mdoel을 접목시키도록 한다.
+## 2. Related Work
+### 2-1. MANIQA
+[이미지 넣기]
+
+
+## 3. The Proposed Model
+## 4. Experiments
+## 5. Conculsion
+
+## Refen
 

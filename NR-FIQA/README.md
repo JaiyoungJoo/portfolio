@@ -52,9 +52,12 @@ Similarity Distribution Distance(SDD-FIQA)
 ![sdd](https://user-images.githubusercontent.com/103994779/193990574-1c3b39b4-5262-4ba9-a35e-bca8df42a073.png)
 SDD-FIQA model의 특징은 intra-class와 inter-class 사이의 Wasserstein distance를 계산하여 이미지를 class 별로 나누어 학습하는 것이다. 기존의 FIQA의 경우 input된 이미지를 각각으로 나누어 feature를 찾기 때문에 유사한 이미지 사이의 상관관계 또는 유사하지 않은 이미지 사이의 상관관계에 대해 큰 의미를 두지 않았다. 하지만, SDD-FIQA model의 경우 이미지를 class 별로 나누어 input하기 때문에 model이 class에 따른 feature 차이를 학습할 수 있고, class내의 이미지에 대해 공통적인 feature를 학습함으로써 face에 대한 feature를 더 자세히 학습할 수 있다. 또한 단순한 거리를 구하는 Euclidean Distance를 쓰는 것이 아니라 calss 간 거리를 구할 수 있는 Wasserstein distance를 사용하기 때문에 
 
+### 2-4. MagFace: A Universal Representation for Face Recognition and Quality Assessment
 
 ![magface](https://user-images.githubusercontent.com/103994779/193990509-a587cb33-3c1d-41bd-9e94-34ed279d1fc1.png)
+MagFace model은  ArcFace model을 기반으로 cos $\theta$값을 이용해 이미지 간의 feature 차이를 학습한다. 하지만 ArcFace의 경우 단순히 cos $\theta$만을 이용하기 때문에 이미지 quality 차이에 따른 가중치를 줄 수 없는 문제가 있었다. MagFace는 cos $\theta$에 g와 m 이라는 가중치를 새로 부여함으로써 학습 시 이미지 quality에 따라 같은 class 내의 이미지라도 다른 feature 값을 갖게 되기 때문에 이미지 quality를 더 잘 예측할 수 있다.
 ## 3. The Proposed Model
+
 ## 4. Experiments
 ## 5. Conculsion
 

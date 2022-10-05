@@ -5,5 +5,5 @@
 # Cancer_Classification
 - 갑상선 암 분류 모델 비교하기
 
-# NR-FIQA
+# NR-FIQA(진행중)
 - NR을 이용한 FIQA 모델 만들기

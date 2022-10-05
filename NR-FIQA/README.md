@@ -1,3 +1,4 @@
+https://github.com/JaiyoungJoo/portfolio/blob/main/githubimage/magface.png
 # 프로젝트 주제(진행중)
 ## Face Image Quality Assessment
 - 얼굴 이미지 혹은 영상의 퀄리티(선명도)를 평가하는 태스크
